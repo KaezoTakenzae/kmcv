@@ -1,0 +1,63 @@
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0; }
+
+.clear {
+  clear: both; }
+
+.hero-banner {
+  width: 100%;
+  height: 200px;
+  border-bottom: solid 1px black;
+  text-transform: uppercase; }
+
+.info-two-column {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 7px 0; }
+  .info-two-column .left-column {
+    float: left;
+    width: 40%; }
+  .info-two-column .right-column {
+    float: right;
+    width: 60%; }
+
+.feature-highlights-container {
+  width: 100%;
+  display: flex;
+  margin: 14px 18%; }
+  .feature-highlights-container .feature-highlight {
+    width: 20%;
+    margin-right: 14px; }
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: grey; }
+  header .navbar-logo {
+    float: left;
+    margin-left: 10px; }
+  header .navbar-links {
+    float: right;
+    margin-right: 10px; }
+    header .navbar-links ul {
+      display: flex;
+      text-transform: uppercase;
+      list-style-type: none; }
+  header a {
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+    text-decoration: none; }
+  header li {
+    margin-right: 14px; }
+    header li ul.dropdown-menu {
+      display: none; }
+
+footer {
+  width: 100%;
+  display: flex;
+  padding: 100px; }
+  footer .social-link {
+    width: 20%; }
